@@ -1,5 +1,4 @@
-alert("Cambios echos");
-
+console.log("Mi Primera pagina web, que me ayuda a resolver un problema que tenia :)");
 if ("serviceWorker" in navigator) {
   navigator.serviceWorker.register("/service-worker.js")
     .then((registration) => {
